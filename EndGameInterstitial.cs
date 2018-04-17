@@ -6,9 +6,8 @@ public class EndGameInterstitial : MonoBehaviour
 {
     private  InterstitialAd interstitial;
     public static EndGameInterstitial Instance;
-    public string AndroidInterstitialID = "ca-app-pub-3940256099942544/1033173712";//Номер-а на рекламата в AdMob. v momenta e test
-    public string MyDeviceID = "4C0E5FB95FD5A5E7";
-   // private AdRequest request;
+    public string AndroidInterstitialID = "ca-app-pub-3940256099942544/1033173712";//Тест реклама тип interstitial.
+    public string MyDeviceID = "XXXX";
     public bool timeForNewAd;
     public bool hasShownAdOneTime;
     
@@ -38,7 +37,7 @@ public class EndGameInterstitial : MonoBehaviour
     {
         Debug.Log("Phase 1");
 #if UNITY_ANDROID
-        string appId = "ca-app-pub-3940256099942544~3347511713"; //Номер-а на приложението
+        string appId = "XXXX"; //Номер-а на приложението
 #else
         string appId = "unexpected_platform";
 #endif
