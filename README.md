@@ -1,2 +1,2 @@
 # Random
-Random scripts and exersises used in my projects.
+Random scripts and exersises
